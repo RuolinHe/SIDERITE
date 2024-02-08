@@ -1,5 +1,5 @@
 # SIDERITE
-[SIDERITE](http://siderite.bdainformatics.org/) (**SIDER**ophore **I**nforma**T**ion databas**E**) is a digitized integrated siderophore information database. The first version covers **all 822** siderophore records with **649** unique structures as of **May 2023**.
+[SIDERITE](http://siderite.bdainformatics.org/) (**SIDER**ophore **I**nforma**T**ion databas**E**) is a digitized integrated siderophore information database. The first version covers **all 872** siderophore records with **649** unique structures as of **May 2023**.
 
 ## **Overview of the SIDERITE database**
 ![SIDERITE_usage](https://github.com/RuolinHe/SIDERITE/assets/76482251/d4a70e87-5cf4-4d90-bd62-9dcd021d3b5a)
@@ -21,3 +21,12 @@ Please see the [Wiki page](https://github.com/RuolinHe/SIDERITE/wiki/).
 
 ## Ciation
 If you find SIDERITE useful, please [cite us](https://www.biorxiv.org/content/10.1101/2023.08.31.555687.abstract).
+
+## License
+The data of SIDERITE is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+
+The analysis codes of this work are licensed under a [GNU General Public License-3.0 license](https://github.com/RuolinHe/SIDERITE/tree/main?tab=GPL-3.0-1-ov-file#readme).
+
+The SIDERITE databse is developed and maintained by [Zhiyuan Li Lab](https://cqb.pku.edu.cn/zyli/) and [Computational Synthetic Biology Group](https://www.bdainformatics.org/) at Peking University, China.
+
+Please notice: the code for web application is not shared due to the policy of Beijing Addinghome Technology Limited Company.
