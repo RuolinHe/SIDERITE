@@ -1,9 +1,9 @@
 % Figure CAS of siderophore experiments
 
 % H20
-h2o_raw1=readmatrix('../data/实验设计/55个小分子溶解信息与CAS数据-XJZ-2023.07.30.xlsx','Sheet','figure','Range','D62:S67');
-h2o_raw2=readmatrix('../data/实验设计/55个小分子溶解信息与CAS数据-XJZ-2023.07.30.xlsx','Sheet','figure','Range','D68:G68');
-h2o_control_raw=readmatrix('../data/实验设计/55个小分子溶解信息与CAS数据-XJZ-2023.07.30.xlsx','Sheet','figure','Range','I68:K68');
+h2o_raw1=readmatrix('CAS-data-2023.07.30.xlsx','Sheet','figure','Range','D62:S67');
+h2o_raw2=readmatrix('CAS-data-2023.07.30.xlsx','Sheet','figure','Range','D68:G68');
+h2o_control_raw=readmatrix('CAS-data-2023.07.30.xlsx','Sheet','figure','Range','I68:K68');
 
 h2o_matrix=zeros(25,3);
 h2o_id=zeros(25,1);
@@ -38,11 +38,11 @@ line(my_xlim,[mean(h2o_control_raw)+std(h2o_control_raw),mean(h2o_control_raw)+s
 line(my_xlim,[mean(h2o_control_raw)-std(h2o_control_raw),mean(h2o_control_raw)-std(h2o_control_raw)],'Color','red','LineStyle','--')
 title('Water-soluble siderophore candidates(n=25)')
 hold off
-saveas(gcf,'D:\课题组\zhiyuan_Lab\10-Database_resource\Progress\figure\Experiment_H2O.svg','svg');
+saveas(gcf,'Experiment_H2O.svg','svg');
 DMSO
-DMSO_raw1=readmatrix('../data/实验设计/55个小分子溶解信息与CAS数据-XJZ-2023.07.30.xlsx','Sheet','figure','Range','D72:S78');
-DMSO_raw2=readmatrix('../data/实验设计/55个小分子溶解信息与CAS数据-XJZ-2023.07.30.xlsx','Sheet','figure','Range','D79:k79');
-DMSO_control_raw=readmatrix('../data/实验设计/55个小分子溶解信息与CAS数据-XJZ-2023.07.30.xlsx','Sheet','figure','Range','M79:O79');
+DMSO_raw1=readmatrix('CAS-data-2023.07.30.xlsx','Sheet','figure','Range','D72:S78');
+DMSO_raw2=readmatrix('CAS-data-2023.07.30.xlsx','Sheet','figure','Range','D79:k79');
+DMSO_control_raw=readmatrix('CAS-data-2023.07.30.xlsx','Sheet','figure','Range','M79:O79');
 
 DMSO_matrix=zeros(30,3);
 DMSO_id=zeros(30,1);
@@ -79,22 +79,4 @@ line(my_xlim,[mean(DMSO_control_raw)+std(DMSO_control_raw),mean(DMSO_control_raw
 line(my_xlim,[mean(DMSO_control_raw)-std(DMSO_control_raw),mean(DMSO_control_raw)-std(DMSO_control_raw)],'Color','red','LineStyle','--')
 title('Water-insoluble siderophore candidates(n=30, in DMSO)')
 hold off
-saveas(gcf,'D:\课题组\zhiyuan_Lab\10-Database_resource\Progress\figure\Experiment_DMSO.svg','svg');
-%% 
-L6000=readcell('D:\课题组\zhiyuan_Lab\10-Database_resource\data\chemdiv\Natural Product Library\output.xlsx','Sheet','L6000');
-opts = delimitedTextImportOptions('Delimiter', '\t');
-NPL_02 = readcell('D:\课题组\zhiyuan_Lab\10-Database_resource\Program\output\Natural Product Library-02.txt', opts);
-%% 
-CAS_40=readcell('D:\课题组\zhiyuan_Lab\10-Database_resource\Progress\Table\Table S5.xlsx','Range','B2:B49');
-SMILES_40=readcell('D:\课题组\zhiyuan_Lab\10-Database_resource\Progress\Table\Table S5.xlsx','Range','J2:J49');
-Flag_02=ones(length(NPL_02),1);
-CAS_02=cell(length(NPL_02),1);
-%% 
-for i = 1:length(NPL_02)
-    if sum(ismember(L6000(:,2),NPL_02{i,1}))==1
-        CAS_02(i)=L6000(ismember(L6000(:,2),NPL_02{i,1}),3);
-    end
-    if any(ismember(SMILES_40,NPL_02{i,1}))
-        Flag_02(i)=0;
-    end
-end
+saveas(gcf,'Experiment_DMSO.svg','svg');
