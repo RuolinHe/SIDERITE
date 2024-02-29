@@ -33,7 +33,7 @@ def save_similarity_matrix_to_excel(smiles_list, similarity_matrix, sheet_name, 
 
 
 # 从Excel中读取SMILES列表，跳过第一行表头
-df = pd.read_excel(r'D:\课题组\zhiyuan_Lab\10-Database_resource\Program\output\summary.xlsx', sheet_name='Calculate_similarity', usecols=[1])
+df = pd.read_excel(r'../TAMP/summary.xlsx', sheet_name='Calculate_similarity', usecols=[1])
 smiles_list = df.iloc[:, 0].tolist()
 tanimoto_matrix = calculate_similarity_matrix(smiles_list, DataStructs.TanimotoSimilarity)
 print('Saving data')
