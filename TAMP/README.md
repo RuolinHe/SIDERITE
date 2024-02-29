@@ -2,6 +2,12 @@
 ```
 python CheckSMILES2.py
 ```
+The content of input file COCONUT4MetFrag.xlsx is the copy of COCONUT_DB.smi.
+
+COCONUT_DB.smi is download from [COCONUT database](https://coconut.naturalproducts.net/download) in 20230303.
+
+The input file Sid_structure_output3.xlsx is generated in this study.
+
 The output is COCONUT4MetFrag_Canonical.xlsx and Sid_structure_unique_Canonical.xlsx.
 
 # Prepare input files for TAMP
