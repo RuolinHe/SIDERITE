@@ -1,0 +1,15 @@
+CN(O)C=O
+CN1CCC1C(=O)O
+Cc1cccc(O)c1O
+O=Cc1ccc(O)c(O)c1
+Oc1ccccc1C2=NCCO2
+Oc1ccccc1C2=NCCS2
+CC(O)c1cnc[nH]1
+CN(O)N=O
+OC(=S)c1ccccn1
+O=c1ccccn1O
+O=c1cnccn1O
+Oc1cccnc1C2=NCCC2
+Oc1cccnc1C2=NCCS2
+Oc1cccc2cccnc12
+O=Nc1cc(C(=O)O)ccc1O
