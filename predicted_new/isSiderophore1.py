@@ -14,7 +14,7 @@ with open('Ligand_N0.txt', 'r') as file: # 去掉了酚
     ligand_N_smiles = [line.strip() for line in file]
 
 # Load input SMILES from the input file (only the first column)
-with open(r'D:\课题组\zhiyuan_Lab\10-Database_resource\Program\sider_tmap\COCONUT_r.txt', 'r') as file:
+with open('COCONUT_r.txt', 'r') as file:
     input_lines = file.readlines()
     input_smiles = [line.strip().split()[0] for line in input_lines]
 
@@ -55,6 +55,6 @@ for input_smile in input_smiles:
         continue
 
 # Write the selected SMILES and similarities to the output file
-with open(r'.\output\COCONUT-01.txt', 'w') as file:
+with open('COCONUT-01.txt', 'w') as file:
     for smiles, similarity in zip(output_smiles, output_similarities):
         file.write(f"{smiles}\t{similarity}\n")
