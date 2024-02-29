@@ -49,15 +49,15 @@ def calculate_similarity_matrix(smiles_list1,smiles_list2, similarity_func, *arg
     return similarity_matrix
 
 # 从Excel中读取SMILES列表，跳过第一行表头
-df1 = pd.read_excel(r'D:\课题组\zhiyuan_Lab\10-Database_resource\data\siderophore_database_web\Sider_database_web20230605.xlsx', sheet_name='Unique1', usecols=[21])
+df1 = pd.read_excel(r'./data/Sider_database_web20230605.xlsx', sheet_name='Unique1', usecols=[21])
 reference_smiles_list = df1.iloc[:, 0].tolist()
-df1 = pd.read_excel(r'D:\课题组\zhiyuan_Lab\10-Database_resource\data\siderophore_database_web\Sider_database_web20230605.xlsx', sheet_name='Unique1', usecols=[0])
+df1 = pd.read_excel(r'./data/Sider_database_web20230605.xlsx', sheet_name='Unique1', usecols=[0])
 SID_list = df1.iloc[:, 0].tolist()
-df1 = pd.read_excel(r'D:\课题组\zhiyuan_Lab\10-Database_resource\data\siderophore_database_web\Sider_database_web20230605.xlsx', sheet_name='Unique1', usecols=[1])
+df1 = pd.read_excel(r'./data/Sider_database_web20230605.xlsx', sheet_name='Unique1', usecols=[1])
 Name_list = df1.iloc[:, 0].tolist()
-with open('Ligand01.txt', 'r') as file: # 去掉了酚
+with open('./data/Ligand01.txt', 'r') as file: # 去掉了酚
     ligand_smiles = [line.strip() for line in file]
-with open('Ligand_N0.txt', 'r') as file: # 去掉了酚
+with open('./data/Ligand_N0.txt', 'r') as file: # 去掉了酚
     ligand_N_smiles = [line.strip() for line in file]
 ligand_mols = [Chem.MolFromSmiles(ligand) for ligand in ligand_smiles]
 ligand_N_mols = [Chem.MolFromSmiles(ligand) for ligand in ligand_N_smiles]
