@@ -1,3 +1,6 @@
+# Large files archive
+Sid_structure_output3.xlsx, COCONUT4MetFrag.xlsx, COCONUT4MetFrag_Canonical.xlsx, and COCONUT_r.txt can be found in [DOI 10.5281/zenodo.10369626](https://zenodo.org/doi/10.5281/zenodo.10369626)
+
 # Change SMILES into Canonical SMILES
 ```
 python CheckSMILES2.py
