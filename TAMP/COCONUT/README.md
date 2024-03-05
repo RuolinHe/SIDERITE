@@ -1,4 +1,4 @@
-Because the data is too large, we save it in the [zenodo](https://zenodo.org/records/10369627).
+Because the data is too large, we save it in the [DOI 10.5281/zenodo.10369626](https://zenodo.org/doi/10.5281/zenodo.10369626).
 
 The script and data used in SIDERITE paper to generate TMAP picture (Figure S3 in supplementart material).
 
