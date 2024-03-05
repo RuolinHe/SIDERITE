@@ -24,7 +24,7 @@ except getopt.GetoptError:
     sys.exit()
 for opt, arg in opts:
     if opt == '-h':
-        print('FindSimilarSiderSorted.py --i <input of SMILES string> --S <Similarity type: Tanimoto, Dice ot Tversky> --T <Threshold of similarity>')
+        print('python FindSimilarSiderSorted.py --i <input of SMILES string> --S <Similarity type: Tanimoto, Dice ot Tversky> --T <Threshold of similarity>')
         sys.exit()
     elif opt in ("--i"):
         input_SMILES = arg
