@@ -1,3 +1,6 @@
+# Large files archive
+COCONUT_r.txt can be found in [DOI 10.5281/zenodo.10369626](https://zenodo.org/doi/10.5281/zenodo.10369626)
+
 # Prepare clean COCONUT data
 The input file COCONUT_r.txt is COCONUT database excluded known siderophores from SIDERITE database.
 
