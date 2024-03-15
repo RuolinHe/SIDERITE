@@ -19,6 +19,9 @@
 ## Document
 Please see the [Wiki page](https://github.com/RuolinHe/SIDERITE/wiki/).
 
+## Download
+Please see [here](https://github.com/RuolinHe/SIDERITE/wiki#download).
+
 ## Ciation
 If you find SIDERITE useful, please [cite us](https://www.biorxiv.org/content/10.1101/2023.08.31.555687.abstract).
 
