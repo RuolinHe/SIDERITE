@@ -25,6 +25,16 @@ Please see [here](https://github.com/RuolinHe/SIDERITE/wiki#download).
 ## Ciation
 If you find SIDERITE useful, please [cite us](https://www.biorxiv.org/content/10.1101/2023.08.31.555687.abstract).
 
+## Code for paper
+[Figure 1A and Figure S4-S16](https://github.com/RuolinHe/SIDERITE/tree/main/TAMP/SIDERITE)
+
+[Figure 2C](https://github.com/RuolinHe/SIDERITE/blob/main/predicted_new)
+
+[Figure 2G, H](https://github.com/RuolinHe/SIDERITE/blob/main/CAS_experiment)
+
+[Figure S1 and S17-S19](https://github.com/RuolinHe/SIDERITE/tree/main/statistics)
+
+[Figure S3](https://github.com/RuolinHe/SIDERITE/tree/main/TAMP/COCONUT)
 ## License
 The data of SIDERITE is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
 
