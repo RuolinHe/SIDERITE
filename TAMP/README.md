@@ -18,7 +18,7 @@ These two files were used in ```tmap_code.m``` to generate COCONUT.csv and Sid_t
 The later were used to generate TAMP figure.
 
 # TAMP script
-Script in [SIDERITE](https://github.com/RuolinHe/SIDERITE/tree/main/TAMP/SIDERITE) folder was used to generate raw Figure 2:
+Script in [SIDERITE](https://github.com/RuolinHe/SIDERITE/tree/main/TAMP/SIDERITE) folder was used to generate raw Figure 1:
 ![image](https://github.com/RuolinHe/SIDERITE/assets/76482251/c4aa52f8-b33d-4cfa-9e5f-d383303ff9a5)
 
 Script in [COCONUT](https://github.com/RuolinHe/SIDERITE/tree/main/TAMP/COCONUT) folder was used to generate raw Figure S3:
