@@ -22,6 +22,11 @@ Please see the [Wiki page](https://github.com/RuolinHe/SIDERITE/wiki/).
 ## Download
 Please see [here](https://github.com/RuolinHe/SIDERITE/wiki#download).
 
+## Contribution
+If you find siderophores not reported in our database, please use this [template](https://github.com/RuolinHe/SIDERITE/blob/main/SIDERITE_contribution_template.xlsx) and email to me: herl@stu.pku.edu.cn
+
+We will record contributor's name in these siderophores pages.
+
 ## Ciation
 If you find SIDERITE useful, please [cite us](https://www.biorxiv.org/content/10.1101/2023.08.31.555687.abstract).
 
