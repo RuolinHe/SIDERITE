@@ -32,7 +32,7 @@ If you find siderophores not reported in our database, please use this [template
 We will record contributor's name in these siderophores pages.
 
 ## Ciation
-If you find SIDERITE useful, please [cite us](https://www.biorxiv.org/content/10.1101/2023.08.31.555687.abstract).
+If you find SIDERITE useful, please [cite us](https://doi.org/10.1002/imt2.192).
 
 ## Code for paper
 [Figure 1A and Figure S4-S16](https://github.com/RuolinHe/SIDERITE/tree/main/TAMP/SIDERITE)
@@ -51,4 +51,4 @@ The analysis codes of this work are licensed under a [GNU General Public License
 
 The SIDERITE databse is developed and maintained by [Zhiyuan Li Lab](https://cqb.pku.edu.cn/zyli/) and [Computational Synthetic Biology Group](https://www.bdainformatics.org/) at Peking University, China.
 
-Please notice: the code for web application is not shared due to the policy of Beijing Addinghome Technology Limited Company.
+Please notice: the code for web application is not shared due to the policy of Beijing Beyond Flux Technology Technology Limited Company.
