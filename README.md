@@ -1,9 +1,9 @@
 # History of siderophore
-![Siderophore_history_20240331](https://github.com/RuolinHe/SIDERITE/assets/76482251/dcbc7f24-ce8d-40d8-9b03-68a97d7d39c5)
+![Siderophore_history_20240531](https://github.com/RuolinHe/SIDERITE/assets/76482251/ed28d2e4-3746-4294-87fe-ab4c62df2e41)
 
 
 # SIDERITE
-[SIDERITE](http://siderite.bdainformatics.org/) (**SIDER**ophore **I**nforma**T**ion databas**E**) is a digitized integrated siderophore information database. The first version covers **all 872** siderophore records with **649** unique structures as of **May 2023**.
+[SIDERITE](http://siderite.bdainformatics.org/) (**SIDER**ophore **I**nforma**T**ion databas**E**) is a digitized integrated siderophore information database. The latest version covers **all 945** siderophore records with **707** unique structures as of **May 2024**.
 
 ## **Overview of the SIDERITE database**
 ![SIDERITE_usage](https://github.com/RuolinHe/SIDERITE/assets/76482251/d4a70e87-5cf4-4d90-bd62-9dcd021d3b5a)
