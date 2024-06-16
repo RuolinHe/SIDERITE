@@ -1,5 +1,5 @@
 # History of siderophore
-![Siderophore_history_20240531](https://github.com/RuolinHe/SIDERITE/assets/76482251/ed28d2e4-3746-4294-87fe-ab4c62df2e41)
+![Siderophore_history_20240531](https://github.com/RuolinHe/SIDERITE/assets/76482251/ea2a24cc-2677-40ce-80a4-dae9d7c05ded)
 
 
 # SIDERITE
