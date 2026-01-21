@@ -3,7 +3,7 @@
 
 
 # SIDERITE
-[SIDERITE](http://siderite.bdainformatics.org/) (**SIDER**ophore **I**nforma**T**ion databas**E**) is a digitized integrated siderophore information database. The latest version covers **all 1636** siderophore records with **918** unique structures as of **Jan 2025**.
+[SIDERITE](http://siderite.bdainformatics.org/) (**SIDER**ophore **I**nforma**T**ion databas**E**) is a digitized integrated siderophore information database. The latest version covers **all 1779** siderophore records with **1018** unique structures as of **Dec 2025**.
 
 ## **Overview of the SIDERITE database**
 ![SIDERITE_usage](https://github.com/RuolinHe/SIDERITE/assets/76482251/d4a70e87-5cf4-4d90-bd62-9dcd021d3b5a)
