@@ -19,7 +19,7 @@ pip install matplotlib
 
 conda install scipy
 
-conda install -c rdkit rdkit
+conda install -c conda-forge rdkit
 
 conda install -c conda-forge mhfp
 ```
